@@ -16,7 +16,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 3em;
+    height: 4em;
     z-index: 15;
     display: flex;
     flex-direction: row;
@@ -53,3 +53,55 @@ body {
     padding-right: 1.3em;
     font-size: 2.0em;
 }
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.intro {
+    color: #aa69d6;
+    padding-top: 10.5em;
+    padding-left: 3.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-top {
+    font-size: 315%;
+}
+
+.intro-top p {
+    padding-bottom: .45em;
+}
+
+.line1 {
+    width: 23em;
+    height: 0;
+    border: 1.29px solid #aa69d6;
+    margin: 0 0 1em 0;
+    display:inline-block;
+}
+
+.line2 {
+    width: 27em;
+    height: 0;
+    border: 1.29px solid #aa69d6;
+    margin: 1em 0 1em 0;
+    display:inline-block;
+}
+
+.intro-bottom {
+    font-size: 150%;
+}
+
+.intro-bottom button {
+    border: 2px solid #aa69d6;
+    background: #ffd0e3;
+    height: 3em;
+    color: #aa69d6;
+    font-size: .6em;
+    padding: 1em;
+}
+
