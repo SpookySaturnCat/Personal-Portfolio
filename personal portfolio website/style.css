@@ -22,6 +22,17 @@ body {
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.logo img {
+    height: 3.5em;
+    width: auto;  
 }
 
 .top-nav-bar-left {
@@ -30,9 +41,10 @@ body {
     align-items: center;
     flex-wrap: nowrap;
     gap: 1.5em; 
-    font-size: 125%;
-    position: relative;
-    right: -15%;
+    flex: 1 1 auto;
+    margin-left: 3em;
+    max-width: 90vw;
+    font-size: 1.2rem;
 }
 
 .top-nav-bar-left a {
@@ -44,14 +56,19 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     float: right;
-    margin-left: 25%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-left: 7em;
+    margin-right: 1vw;
+    flex: 1 1 auto;
+    min-width: 100%;
 }
 
 .top-nav-bar-right i {
-    padding-right: 1.3em;
     font-size: 2.0em;
+    padding-left: .5em;
 }
 
 .main-page {
